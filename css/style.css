@@ -41,6 +41,8 @@
 }
 
 
+
+
 /*** Button ***/
 .btn {
     font-family: 'Nunito', sans-serif;
@@ -142,7 +144,7 @@
         z-index: 999;
         background: transparent !important;
     }
-    
+
     .sticky-top.navbar-dark {
         position: fixed;
         background: var(--dark) !important;
@@ -152,13 +154,14 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(89, 170, 236, 0.9), rgba(234, 236, 72, 0.9)) ;
+    background: linear-gradient(rgba(89, 170, 236, 0.9), rgba(234, 236, 72, 0.9));
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .hero-header-contact {
-    
+
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,13 +171,13 @@
     animation: imgRotate 50s linear infinite;
 }
 
-@keyframes imgRotate { 
-    100% { 
-        transform: rotate(360deg); 
-    } 
+@keyframes imgRotate {
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: rgba(255, 255, 255, .5);
 }
 
@@ -214,11 +217,12 @@
 
 
 /*** Service ***/
-h2{
+h2 {
     font-size: 50px;
     color: orange;
 
 }
+
 .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     transition: .5s;
@@ -242,25 +246,27 @@ h2{
     border-bottom: 10px solid var(--primary);
 
 }
-.packs{
+
+.packs {
     font-family: 'Pacifico';
     font-size: 70px;
 }
-.pack{
- font-family:'Pacifico', cursive; 
- font-size: xx-large;
+
+.pack {
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
 }
 
 
 /*** Youtube Video ***/
-.background-video{ 
-width: 100vw;
- height: 100vh;
-left: 0;
- right: 0;
- top: 0;
-bottom: 0;
-z-index: -1;
+.background-video {
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 .video {
